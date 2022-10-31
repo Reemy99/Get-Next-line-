@@ -14,6 +14,7 @@ The static variable inside the function holds the value not only till the end of
 
 __________________________________________
 
+# How to start
 You need to read one character at a time, until you've read the entire line, and detect a '/n'.
 
 1) You should declare some buffer which you read a character, then copy it into the buffer.
